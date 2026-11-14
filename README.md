@@ -29,20 +29,20 @@ Typical use: two Claude Pro subscriptions (e.g. personal and work) on one Window
 
 ### Option A – click
 
-1. [Download this repository as ZIP](https://github.com/Kessler833/claude-hotswitch/archive/refs/heads/main.zip) and unpack it.
+1. [Download this repository as ZIP](https://github.com/HannesKapsch/claude-hotswitch/archive/refs/heads/main.zip) and unpack it.
 2. Double-click **`install.cmd`**.
 3. Quit Claude Desktop completely and open it again.
 
 ### Option B – one line in a terminal Claude Code session
 
 ```
-/plugin install hotswitch --marketplace Kessler833/claude-hotswitch
+/plugin install hotswitch --marketplace HannesKapsch/claude-hotswitch
 ```
 
 Answer `y` to add the marketplace, then pick the user scope. Or from a shell:
 
 ```bash
-claude plugin marketplace add Kessler833/claude-hotswitch
+claude plugin marketplace add HannesKapsch/claude-hotswitch
 ```
 ```bash
 claude plugin install hotswitch@hotswitch
@@ -50,7 +50,7 @@ claude plugin install hotswitch@hotswitch
 
 ### Option C – let your AI agent do it
 
-Tell Claude Code (or any coding agent with a shell): *“Install Hotswitch from github.com/Kessler833/claude-hotswitch.”* Step-by-step instructions for agents are in [AGENTS.md](AGENTS.md).
+Tell Claude Code (or any coding agent with a shell): *“Install Hotswitch from github.com/HannesKapsch/claude-hotswitch.”* Step-by-step instructions for agents are in [AGENTS.md](AGENTS.md).
 
 ## First use
 

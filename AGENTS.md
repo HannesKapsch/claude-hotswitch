@@ -17,7 +17,7 @@ Use this file when a person asks you to *"install Hotswitch"*, *"switch between 
 ## Install – the non-interactive way
 
 ```powershell
-git clone https://github.com/Kessler833/claude-hotswitch
+git clone https://github.com/HannesKapsch/claude-hotswitch
 powershell -NoProfile -ExecutionPolicy Bypass -File claude-hotswitch\install.ps1 -Yes
 ```
 
@@ -26,7 +26,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File claude-hotswitch\install.ps1
 Equivalent by hand:
 
 ```powershell
-claude plugin marketplace add Kessler833/claude-hotswitch
+claude plugin marketplace add HannesKapsch/claude-hotswitch
 claude plugin install hotswitch@hotswitch
 ```
 

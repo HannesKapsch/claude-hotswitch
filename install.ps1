@@ -15,7 +15,7 @@
 #>
 param([switch]$Local, [switch]$Yes, [switch]$DryRun)
 $ErrorActionPreference = 'Stop'
-$Repo = 'Kessler833/claude-hotswitch'
+$Repo = 'HannesKapsch/claude-hotswitch'
 $Plugin = 'hotswitch@hotswitch'
 
 function Say($m, $c = 'Gray') { Write-Host $m -ForegroundColor $c }
